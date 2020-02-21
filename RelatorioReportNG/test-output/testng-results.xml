@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Verificar titulo]]>
+    </line>
+    <line>
+      <![CDATA[Verificar Titulo 2]]>
+    </line>
+    <line>
+      <![CDATA[Verificar URL]]>
+    </line>
+    <line>
+      <![CDATA[Verificar URL 2]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15279" started-at="2020-02-21T00:29:58Z" finished-at="2020-02-21T00:30:14Z">
+    <groups>
+      <group name="Funcional1">
+        <method signature="PageOneTest2.validarTitle1()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="validarTitle1" class="test.PageOneTest2"/>
+      </group> <!-- Funcional1 -->
+      <group name="Regression1">
+        <method signature="PageOneTest2.validarURL1()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="validarURL1" class="test.PageOneTest2"/>
+      </group> <!-- Regression1 -->
+      <group name="Funcional">
+        <method signature="PageOneTest1.validarTitle()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarTitle" class="test.PageOneTest1"/>
+      </group> <!-- Funcional -->
+      <group name="Regression">
+        <method signature="PageOneTest1.validarURL()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarURL" class="test.PageOneTest1"/>
+      </group> <!-- Regression -->
+      <group name="Test One">
+        <method signature="PageOneTest1.validarTitleTestTwo()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarTitleTestTwo" class="test.PageOneTest1"/>
+      </group> <!-- Test One -->
+    </groups>
+    <test name="Test" duration-ms="15279" started-at="2020-02-21T00:29:58Z" finished-at="2020-02-21T00:30:14Z">
+      <class name="test.PageOneTest2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="setup" is-config="true" duration-ms="5666" started-at="2020-02-20T21:30:05Z" finished-at="2020-02-20T21:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validarTitle1()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="validarTitle1" duration-ms="1010" started-at="2020-02-20T21:30:11Z" finished-at="2020-02-20T21:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarTitle1 -->
+        <test-method status="PASS" signature="validarURL1()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="validarURL1" duration-ms="1033" started-at="2020-02-20T21:30:12Z" finished-at="2020-02-20T21:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarURL1 -->
+        <test-method status="PASS" signature="tearDonw1()[pri:0, instance:test.PageOneTest2@3a5ed7a6]" name="tearDonw1" is-config="true" duration-ms="590" started-at="2020-02-20T21:30:13Z" finished-at="2020-02-20T21:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDonw1 -->
+      </class> <!-- test.PageOneTest2 -->
+      <class name="test.PageOneTest1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.PageOneTest1@7791a895]" name="setup" is-config="true" duration-ms="6318" started-at="2020-02-20T21:29:58Z" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validarTitle()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarTitle" duration-ms="20" started-at="2020-02-20T21:30:05Z" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verificar titulo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarTitle -->
+        <test-method status="PASS" signature="validarTitleTestTwo()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarTitleTestTwo" duration-ms="9" started-at="2020-02-20T21:30:05Z" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verificar Titulo 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarTitleTestTwo -->
+        <test-method status="PASS" signature="validarURL()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarURL" duration-ms="9" started-at="2020-02-20T21:30:05Z" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verificar URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarURL -->
+        <test-method status="PASS" signature="validarTitleTwo()[pri:0, instance:test.PageOneTest1@7791a895]" name="validarTitleTwo" duration-ms="9" started-at="2020-02-20T21:30:05Z" depends-on-methods="test.PageOneTest1.validarTitle" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verificar URL 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarTitleTwo -->
+        <test-method status="PASS" signature="tearDonw1()[pri:0, instance:test.PageOneTest1@7791a895]" name="tearDonw1" is-config="true" duration-ms="599" started-at="2020-02-20T21:30:05Z" finished-at="2020-02-20T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDonw1 -->
+      </class> <!-- test.PageOneTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
